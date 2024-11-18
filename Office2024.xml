@@ -1,0 +1,24 @@
+<Configuration ID="08c1b0d7-7ee6-4dde-a267-07a6aeb94479">
+  <Add OfficeClientEdition="64">
+  <!-- Channel="PerpetualVL2024" -->
+    <Product ID="ProPlus2024Retail" >
+	<!-- PIDKEY="XJ2XN-FW8RK-P4HMP-DKDBV-GCVGB"> -->
+      <Language ID="pt-br" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+	  <ExcludeApp ID="Teams" />
+      <ExcludeApp ID="Publisher" />
+    </Product>
+  </Add>
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="FALSE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+  <Property Name="SCLCacheOverride" Value="0" />
+  <Property Name="AUTOACTIVATE" Value="0" />
+  <Display Level="Full" AcceptEULA="TRUE" />
+  <Updates Enabled="FALSE" />
+  <RemoveMSI />
+</Configuration>
