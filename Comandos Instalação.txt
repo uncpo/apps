@@ -1,5 +1,0 @@
-irm https://github.com/uncpo/apps/releases/download/Apps/WSUS.ps1 | iex
-
-irm https://github.com/uncpo/apps/releases/download/Apps/AppsW10.ps1 | iex
-
-irm https://github.com/uncpo/apps/releases/download/Apps/AppsW11.ps1 | iex
